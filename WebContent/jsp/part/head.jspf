@@ -17,15 +17,15 @@
 <!-- 폰트어썸 불러오기 -->
 <link rel="stylesheet"
 	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
-<link rel="stylesheet" href="/java-blog/resource/css/home/main.css">
-<link rel="stylesheet" href="/java-blog/resource/css/common.css">
+<link rel="stylesheet" href="${pageContext.request.contextPath}/resource/css/home/main.css">
+<link rel="stylesheet" href="${pageContext.request.contextPath}/resource/css/common.css">
 
 
 <!-- 제이쿼리 불러오기 -->
 <script
 	src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="/java-blog/resource/js/home/main.js"></script>
-<script src="/java-blog/resource/js/common.js"></script>
+<script src="${pageContext.request.contextPath}/resource/js/home/main.js"></script>
+<script src="${pageContext.request.contextPath}/resource/js/common.js"></script>
 
 <title>Blog</title>
 </head>
@@ -69,20 +69,20 @@
 	</div>
 	<div class="top-bar visible-on-md-up">
 		<div class="con flex flex-jc-sb height-100p">
-			<a href="/java-blog/home/main" class="logo flex flex-ai-c">
+			<a href="${pageContext.request.contextPath}/home/main" class="logo flex flex-ai-c">
 				<i class="fas fa-cloud"></i>
 			</a>
 
 			<nav class="menu-box-1">
 				<ul class="flex height-100p">
 					<li>
-						<a href="/java-blog/home/main" class="flex height-100p flex-ai-c">HOME</a>
+						<a href="${pageContext.request.contextPath}/home/main" class="flex height-100p flex-ai-c">HOME</a>
 					</li>
 					<li>
 						<a href="#" class="flex height-100p flex-ai-c">ARTICLES</a>
 					</li>
 					<li>
-						<a href="/java-blog/home/aboutMe"
+						<a href="${pageContext.request.contextPath}/home/aboutMe"
 							class="flex height-100p flex-ai-c">ABOUTME</a>
 					</li>
 					<li>
